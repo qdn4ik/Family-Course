@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "296013953898",
+    "firebase_url": "https://familycourse-5a04e.firebaseio.com",
+    "project_id": "familycourse-5a04e",
+    "storage_bucket": "familycourse-5a04e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296013953898:android:a9f4cdca787bb4b8848313",
+        "android_client_info": {
+          "package_name": "com.example.familycourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296013953898-g6mh5pb4hqs00gigbmil4tlijeftl49a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.familycourse",
+            "certificate_hash": "7991986477261e6fca0c579b655f3691de57764e"
+          }
+        },
+        {
+          "client_id": "296013953898-48lgfb1edbp43vj12pof9u3nad164sp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfchk1kFsP6pGhEC0sKPN2vWwVGVAxJQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296013953898-48lgfb1edbp43vj12pof9u3nad164sp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
