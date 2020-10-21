@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class OnBoarding extends AppCompatActivity {
 
     ViewPager viewPager;
@@ -144,4 +146,5 @@ public class OnBoarding extends AppCompatActivity {
 
         }
     };
+
 }

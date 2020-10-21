@@ -10,6 +10,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class Welcome extends AppCompatActivity {
 
     Animation move_left , move_right , slide_down;
@@ -62,5 +64,6 @@ public class Welcome extends AppCompatActivity {
             }
         });
     }
+
 
 }

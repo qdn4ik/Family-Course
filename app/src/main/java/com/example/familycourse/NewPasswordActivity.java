@@ -27,6 +27,7 @@ public class NewPasswordActivity extends AppCompatActivity {
         setContentView(R.layout.activity_new_password);
         findId();
         animation();
+        btn_new();
     }
     private void findId(){
         et_password_new = findViewById(R.id.et_password_new);

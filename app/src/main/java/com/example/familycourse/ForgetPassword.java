@@ -32,6 +32,7 @@ public class ForgetPassword extends AppCompatActivity {
         setContentView(R.layout.activity_forget_password);
         findId();
         animation();
+        btn_forget();
 
     }
 
