@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.firebase.auth.FirebaseAuth;
+
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
@@ -106,9 +106,7 @@ public class Register extends AppCompatActivity {
                         }else {
                             Toast.makeText(Register.this, "Your phone number uje registered ...", Toast.LENGTH_SHORT).show();
                         }
-
                     }
-
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
                         Toast.makeText(Register.this, error.getMessage(), Toast.LENGTH_SHORT).show();
@@ -117,5 +115,4 @@ public class Register extends AppCompatActivity {
             }
         });
     }
-
 }
